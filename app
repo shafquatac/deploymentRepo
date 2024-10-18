@@ -15,7 +15,7 @@ app = Flask(__name__)
 # here we can set the different URL routs for our web service / is generally our home page
 @app.route('/')
 def hello_world():
-    return 'your website is running successfully'
+    return 'Great! your website is running successfully'
 
 if __name__ == '__main__':
     app.run()
